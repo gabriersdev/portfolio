@@ -1,0 +1,61 @@
+:root {
+  --azul: #3083FF;
+  --azul-marinho: #273B84;
+
+  --cor-de-fundo-secundaria: #FFF;
+  --cor-de-fundo: #F7F7F7;
+  --cor-de-fundo-formacao: #EAF2FD;
+  --cor-de-fundo-footer: #EAF2FD;
+  --cor-de-fundo-contato: #EAF2FD;
+
+  --cor-de-link: #000;
+
+  --cor-de-texto: #464646;
+  --cor-de-icone: #464646;
+
+  --cor-de-borda-inputs: #808080;
+  --cor-de-fundo-inputs: #FFF;
+
+  --cor-de-fundo-botao-2: transparent;
+  --cor-de-borda-botao-2: transparent;
+  --cor-de-texto-botao-2: var(--azul);
+
+  --cor-de-fundo-botao-1: transparent;
+  --cor-de-borda-botao-1: transparent;
+  --cor-de-texto-botao-1: #273B84;
+
+  --cor-background-loader: #F5F5F5;
+  --cor-loader: #273B84;
+
+  --cor-background-hover-links: #D3E3F7;
+
+  --tamanho-fonte-texto-normal: 1.2rem;
+  --tamanho-fonte-texto-destaque: 1.75rem;
+
+  --margin-x-sections: 15rem;
+}
+
+@media screen and (max-width: 1700px) {
+  :root {
+    --margin-x-sections: 7.5rem;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  :root {
+    --margin-x-sections: 5rem;
+  }
+}
+
+@media screen and (max-width: 1385px) {
+  :root {
+    --margin-x-sections: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  :root {
+    --tamanho-fonte-texto-destaque: 1.25rem;
+    --tamanho-fonte-texto-normal: 1.15rem;
+  }
+}

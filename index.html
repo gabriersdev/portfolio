@@ -1,70 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" `>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-inline'; 
+  <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-inline'; 
     style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://unpkg.com; 
-    img-src 'self' https://raw.githubusercontent.com https://gabriersdev.github.io https://opengraph.githubassets.com/ data: blob:; 
+    img-src 'self' https://raw.githubusercontent.com https://gabriersdev.github.io https://opengraph.githubassets.com/ data: blob: https://*.vercel.app; 
     font-src 'self' https://fonts.gstatic.com; 
     connect-src 'self' https://gist.githubusercontent.com/; 
     script-src 'self' https://unpkg.com; 
     frame-src 'self'">
 
-    <meta name="keywords" content="Portfólio, Projetos, Skills, Pessoal">
-    <meta name="author" content="Gabriel Ribeiro">
-    <meta property="og:title" content="Gabriel - Portfólio">
-    <meta property="og:description"
-      content="Meu nome é Gabriel Ribeiro e sou técnico em Informática para a Internet, estou cursando Faculdade de ADS e estudando React e frameworks para JavaScript.">
-    <meta property="og:image"
-      content="https://raw.githubusercontent.com/gabriersdev/portfolio/master/public/img/banner.png">
-    <meta property="og:image:secure_url"
-      content="https://raw.githubusercontent.com/gabriersdev/portfolio/master/public/img/banner.png">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content="1600">
-    <meta property="og:image:height" content="1200">
+  <meta name="keywords" content="Portfólio, Projetos, Skills, Pessoal">
+  <meta name="author" content="Gabriel Ribeiro">
+  <meta property="og:title" content="Gabriel - Portfólio">
+  <meta property="og:description"
+        content="Meu nome é Gabriel Ribeiro e sou técnico em Informática para a Internet, estou cursando Faculdade de ADS e estudando React e frameworks para JavaScript.">
+  <meta property="og:image"
+        content="https://raw.githubusercontent.com/gabriersdev/portfolio/master/public/img/banner.png">
+  <meta property="og:image:secure_url"
+        content="https://raw.githubusercontent.com/gabriersdev/portfolio/master/public/img/banner.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1600">
+  <meta property="og:image:height" content="1200">
 
-    <link rel="shortcut icon" href="./img/svgs/icone.svg" type="image/x-icon">
+  <link rel="shortcut icon" href="/portfolio/img/svgs/icone.svg" type="image/x-icon">
 
-    <!-- Importação da Fonte -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-      rel="stylesheet">
+  <!-- Importação da Fonte -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+  
+  <link rel="stylesheet" href="/portfolio/css/no-script.css">
 
-    <title>Gabriel - Portfólio</title>
-    <script type="module" crossorigin src="/portfolio/assets/index-Bk9gyUXL.js"></script>
-    <link rel="stylesheet" crossorigin href="/portfolio/assets/index-9g3nQ7p6.css">
-  </head>
+  <title>Gabriel - Portfólio</title>
+  <script type="module" crossorigin src="/portfolio/assets/index-DKR_c0lK.js"></script>
+  <link rel="stylesheet" crossorigin href="/portfolio/assets/index-ZsDUEJlT.css">
+</head>
 
-  <body>
-    <noscript>
-      <div className="box-no-script">
-        <div className="texto-pagina-centralizado-alt">
-          <h2 className="titulo-texto-pagina-centralizado">Este site não funciona com o
-            <span className="destaque-pagina-centralizado">Javascript desabilitado</span>
-          </h2><br>
+<body>
+<noscript>
+  <div class="box-no-script">
+    <div class="texto-pagina-centralizado-alt">
+      <h2 class="titulo-texto-pagina-centralizado">Este site não funciona com o
+        <span class="destaque-pagina-centralizado">Javascript desabilitado</span>
+      </h2>
+      <p class="label-texto-pagina-centralizado">Muitos dos recursos usados funcionam através do Javascript e
+        sem
+        ele
+        a navegabilidade e o próprio funcionamento do site são comprometidos</p>
+      <p class="label-texto-pagina-centralizado">Portanto, habilite o Javascript e navegue pelo Expresso
+        Mobilidade
+      </p>
+      <button data-recarrega-pagina
+              class="btn btn-lg btn-principal btn-principal-ativado btn-sombra btn-principal-no-script"
+              id="btn-redirecionar-inicio" name="btn-redirecionar-inicio">Recarregar
+      </button>
+    </div>
+  </div>
+</noscript>
 
-          <p className="label-texto-pagina-centralizado">Muitos dos recursos usados funcionam através do Javascript e
-            sem
-            ele
-            a navegabilidade e o próprio funcionamento do site são comprometidos</p>
-
-          <p className="label-texto-pagina-centralizado">Portanto, habilite o Javascript e navegue pelo Expresso
-            Mobilidade
-          </p><br>
-          <button data-recarrega-pagina
-            className="btn btn-lg btn-principal btn-principal-ativado btn-sombra btn-principal-no-script"
-            id="btn-redirecionar-inicio" name="btn-redirecionar-inicio">Recarregar</button>
-        </div>
-      </div>
-    </noscript>
-
-    <div id="root"></div>
-  </body>
+<div id="root"></div>
+</body>
 
 </html>
