@@ -1,0 +1,20 @@
+{
+  "name": "Portfolio - Gabriel Ribeiro",
+  "short_name": "Portfolio",
+  "start_url": "./portfolio",
+  "display": "standalone",
+  "background_color": "#D3E3F7",
+  "theme_color": "#F6F6F6",
+  "icons": [
+    {
+      "src" : "./img/profile-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/profile-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
