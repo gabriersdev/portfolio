@@ -1,7 +1,4 @@
 :root {
-  --azul: #3083FF;
-  --azul-marinho: #273B84;
-
   --cor-de-fundo-secundaria: #FFF;
   --cor-de-fundo: #F7F7F7;
   --cor-de-fundo-formacao: #EAF2FD;
@@ -33,6 +30,19 @@
   --tamanho-fonte-texto-destaque: 1.75rem;
 
   --margin-x-sections: 15rem;
+  
+  --branco: #FFFFFF;
+  --cinza-claro: #DDD;
+  --cinza-c: #CCC;
+  --cinza: #464646;
+  --branco-azul: #D3E3F7;
+  --azul: #3083FF;
+  --azul-marinho: #273B84;
+  --azul-secundario: #1964AA;
+  --azul-025: rgba(45, 96, 163, 0.025);
+  --azul-escuro-015: rgba(0, 110, 255, 0.15);
+  --preto-015: rgba(0, 0, 0, 0.15);
+  --preto-005: rgba(0, 0, 0, 0.05);
 }
 
 @media screen and (max-width: 1700px) {
