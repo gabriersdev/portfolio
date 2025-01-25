@@ -8,14 +8,14 @@
   <meta name="description"
         content="Meu nome é Gabriel Ribeiro e sou técnico em Informática para a Internet, estou cursando Faculdade de ADS e estudando React e frameworks para JavaScript.">
 
-  <meta name="google-site-verification" content="WLS2i8oZER5ty3MX76hXmXcsg6NjxiRxyCJPMHlpBJA" />
-  
+  <meta name="google-site-verification" content="WLS2i8oZER5ty3MX76hXmXcsg6NjxiRxyCJPMHlpBJA"/>
+
   <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-inline'; 
     style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://unpkg.com; 
     img-src 'self' https://raw.githubusercontent.com https://gabriersdev.github.io https://opengraph.githubassets.com/ data: blob: https://*.vercel.app https://opengraph.githubassets.com/* https://wakatime.com/* https://wakatime.com/badge/user/92075f46-4a0e-440e-ba90-65daf570fc30.svg; 
     font-src 'self' https://fonts.gstatic.com; 
     connect-src 'self' https://gist.githubusercontent.com/; 
-    script-src 'self' 'unsafe-inline' https://unpkg.com; 
+    script-src 'self' 'unsafe-inline' https://unpkg.com https://www.googletagmanager.com/gtag/js?id=G-78P0CKS67P; 
     worker-src 'self';
     frame-src 'self'">
 
@@ -73,4 +73,17 @@
 <div id="root"></div>
 </body>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-78P0CKS67P"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+
+  gtag('js', new Date());
+
+  gtag('config', 'G-78P0CKS67P');
+</script>
 </html>
