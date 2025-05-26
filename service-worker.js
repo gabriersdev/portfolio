@@ -1,5 +1,5 @@
-const STATIC_CACHE_NAME = 'portfolio-app-v2';
-const DYNAMIC_CACHE_NAME = 'dynamic-portfolio-app-v2';
+const STATIC_CACHE_NAME = 'portfolio-app-v3';
+const DYNAMIC_CACHE_NAME = 'dynamic-portfolio-app-v3';
 
 const staticUrlsToCache = [ // Arquivos estáticos que raramente mudam
   '/portfolio/',
