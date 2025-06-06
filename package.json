@@ -15,7 +15,7 @@
     "@react-spring/web": "^10.0.1",
     "@tailwindcss/line-clamp": "^0.4.4",
     "@tailwindcss/vite": "^4.1.7",
-    "@vitejs/plugin-react": "^4.5.0",
+    "@vitejs/plugin-react": "^4.5.1",
     "classnames": "^2.5.1",
     "cookie": "^1.0.1",
     "gray-matter": "^4.0.3",
