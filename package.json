@@ -21,7 +21,7 @@
     "classnames": "^2.5.1",
     "cookie": "^1.0.1",
     "gray-matter": "^4.0.3",
-    "next": "^14.2.16",
+    "next": "^15.4.3",
     "next-mdx-remote": "^5.0.0",
     "postcss-preset-env": "^10.2.3",
     "prismjs": "^1.29.0",
