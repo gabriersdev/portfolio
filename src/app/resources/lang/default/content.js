@@ -100,13 +100,11 @@ const about = {
         role: "Technical support, maintenance and development of web apps and websites",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            As a freelance developer, I maintain and implement improvements on websites built with WordPress, and also create systems and websites with React. I'm also part of the development team at Lotus Media.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
-          </>,
+            I also offer technical support services, including replacing components and equipment, and formatting and configuring devices and printers.
+          </>
         ],
         images: [
           // optional: leave the array empty if you don&apos;t want to display images
