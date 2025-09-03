@@ -1,11 +1,14 @@
 "use client";
 
-import {usePathname} from "next/navigation";
-
-import {Fade, Flex, ToggleButton} from "@/once-ui/components";
 import styles from "@/components/Header.module.scss";
 
+import {usePathname} from "next/navigation";
+import Image from "next/image";
+import Link from "next/link";
+
+import {Fade, Flex, ToggleButton, Text} from "@/once-ui/components";
 import {routes} from "@/app/resources";
+import {langs} from "@/app/resources/config";
 import {home, about, blog, work, gallery} from "@/app/resources/lang/default/content";
 
 export const Header = () => {
@@ -134,6 +137,27 @@ export const Header = () => {
                     selected={pathname.startsWith("/gallery")}
                     style={{borderRadius: "25px"}}
                   />
+                </>
+              )}
+              
+              {langs && langs.length > 1 && (
+                <>
+                  <Flex
+                    padding={"xs"}
+                    paddingRight={"2"}
+                    style={{marginRight: "0.75rem", border: 0, outline: "none"}}
+                  >
+                    <Flex vertical={"center"} gap={"xs"} paddingRight={"1"} style={{lineHeight: 0}}>
+                      <Text style={{fontWeight: "light", fontSize: "13px"}} onBackground={"info-medium"} className={"s-flex-hide"}>Languages</Text>
+                      <Flex vertical={"center"} gap={"xs"}>
+                        {
+                          langs.map((lang, index) => (
+                            <Link key={index} href={lang === "/" ? "/" : "https://dev.lts.app.br"}><Image src={"/img/languages/" + (lang === "/" ? "default" : lang) + ".svg"} alt={""} width={20} height={16} style={{objectFit: "cover", borderRadius: "1.5px"}}/></Link>
+                          ))
+                        }
+                      </Flex>
+                    </Flex>
+                  </Flex>
                 </>
               )}
             </Flex>
