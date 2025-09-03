@@ -111,10 +111,10 @@ export default function Home() {
         </Column>
       </Column>
       <RevealFx translateY="16" delay={0.6}>
-        <Projects range={[2, 2]}/>
-      </RevealFx>
-      <RevealFx translateY="16" delay={0.6}>
         <Projects range={[4, 4]}/>
+      </RevealFx>
+      <RevealFx translateY="16" delay={0.7}>
+        <Projects range={[6,6]}/>
       </RevealFx>
       {routes["/blog"] && (
         <Flex fillWidth gap="24" mobileDirection="column">
@@ -128,11 +128,11 @@ export default function Home() {
           </Flex>
         </Flex>
       )}
-      <RevealFx translateY="16" delay={0.6}>
-        <Projects range={[5, 5]}/>
+      <RevealFx translateY="16" delay={0.8}>
+        <Projects range={[1, 1]}/>
       </RevealFx>
-      <RevealFx translateY="16" delay={0.6}>
-        <Projects range={[8, 8]}/>
+      <RevealFx translateY="16" delay={0.9}>
+        <Projects range={[2, 2]}/>
       </RevealFx>
       <CallToAction/>
       {contact.display && <Contact contact={contact}/>}
