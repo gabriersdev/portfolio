@@ -160,7 +160,7 @@ const api = {
 }
 
 const langs = [
-  // "/pt-br",
+  "/pt-br",
   "/"
 ]
 
