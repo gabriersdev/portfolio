@@ -4,14 +4,17 @@ import {ProjectCard} from "@/components";
 
 interface ProjectsProps {
   range?: [number, number?];
+  variant?: string;
 }
 
-export function Projects({range}: ProjectsProps) {
+export function Projects({range, variant}: ProjectsProps) {
   let allProjects = getPosts(["src", "app", "work", "projects"]);
 
-  const sortedProjects = allProjects.sort((a, b) => {
+  let sortedProjects = allProjects.sort((a, b) => {
     return new Date(b.metadata.publishedAt).getTime() - new Date(a.metadata.publishedAt).getTime();
   }).toReversed();
+  
+  if (variant === "work-page") sortedProjects = sortedProjects.toReversed();
 
   let displayedProjects = range
     ? sortedProjects.slice(range[0] - 1, range[1] ?? sortedProjects.length)
