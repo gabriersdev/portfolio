@@ -23,7 +23,7 @@ export default function HeroHome() {
       {
         width < 767 && (
           <RevealFx translateY={"2"} fillWidth horizontal={"start"}>
-            <Flex style={{background: "#00CC9920", padding: "0.5rem 1rem", borderRadius: "500px", border: "1px solid #00CC9910", marginBottom: "2rem"}} marginTop={"xl"}>
+            <Flex style={{background: "rgba(204,156,0,0.13)", padding: "0.5rem 1rem", borderRadius: "500px", border: "1px solid rgba(204,156,0,0.25)", marginBottom: "2rem"}} marginTop={"xl"}>
               <span className={"gradient-text"}>✨ Portfolio</span>
             </Flex>
           </RevealFx>
