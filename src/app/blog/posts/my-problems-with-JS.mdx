@@ -1,0 +1,29 @@
+---
+title: "The JavaScript Complex"
+publishedAt: "2025-11-05"
+summary: "There's a common phenomenon in the development field: the 'JS Complex.' It's the tendency to try and solve every programming problem with JavaScript, simply because it's the most familiar tool. After all, if a developer spends so much time with one tool, it's natural for it to become the default solution for everything."
+tag: "Technology, Front-end, Tech Culture"
+image: "/img/posts/code-javascript.png"
+---
+
+# My Problem with JavaScript
+
+There's a common phenomenon in the development field: the "JS Complex." It's the tendency to try and solve every programming problem with JavaScript, simply because it's the most familiar tool. After all, if a developer spends so much time with one tool, it's natural for it to become the default solution for everything.
+
+You can't deny the appeal. JS has obvious merits. First, it's easy to get started; today, it's the first contact many young developers have with logic. You don't need a crazy setup to run it: a text editor and a browser let you do a lot. Second, it runs literally everywhere. Thanks to Node, it's on the back-end. With Electron or React Native, it's on desktops and mobile phones.
+
+And, of course, there's `npm`. Thought of a problem? Someone has already made a package for it. The community is gigantic. It's very easy to get used to this convenience and fall into the mindset: "Why use anything else?".
+
+This is where it gets complicated. The "JS Complex" makes us passively accept, or perhaps just ignore, the headaches that only this language provides. These are the kinds of problems that other tools simply don't have, or have long since overcome.
+
+The ghosts of `null` and `undefined`: Seriously, why do we need both? The number of bugs that arise from this confusion, or from that bizarre type coercion (`typeof null` being 'object' is a classic), is a joke. You spend more time checking if something exists than actually using it. It's an endless source of silly mistakes.
+
+Then we have `npm`. A wonder and a curse. The culture of tiny packages, where everything is a dependency, means any simple project is dozens of megabytes. `npm` isn't great at unifying things, so it's common to end up with that `node_modules` directory weighing gigabytes, full of duplicated code, dependencies of dependencies, and security vulnerabilities hidden deep inside. Updating one package breaks ten others. It's a house of cards.
+
+On security: The language itself doesn't offer much protection. A classic example is ReDoS (Regex Denial of Service attack). A malicious user can send a regular expression specifically crafted to freeze the event loop with a single request. On other platforms, the regex engine often has a built-in timeout to prevent this. In JS? Good luck, you're on your own.
+
+So, what's the problem with JavaScript? Ultimately, the problem isn't the language. It's the "JS Complex" itself.
+
+It's the insistence on using this single tool for everything, just because it's comfortable and familiar. It's the stubbornness of not wanting to leave the comfort zone to pick up another tool that, although less mastered, would get the job done in half the time and with a third of the headache.
+
+JavaScript (and TypeScript, which is a nice layer of makeup on top) is still the obvious choice on the front-end and for many APIs. But we need to overcome this complex. Being a good professional isn't about knowing everything about one single thing, but knowing how to recognize when that thing isn't the best choice, even if it's your favorite. Sometimes it's just not worth it.
