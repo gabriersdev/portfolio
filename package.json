@@ -25,6 +25,7 @@
     "cookie": "^1.0.1",
     "cypress": "^15.10.0",
     "gray-matter": "^4.0.3",
+    "next": "^16.1.6",
     "next-mdx-remote": "^6.0.0",
     "postcss-preset-env": "^10.2.3",
     "prismjs": "^1.29.0",
