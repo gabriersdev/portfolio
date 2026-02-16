@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "lint:fix": "next lint --fix"
+    "lint:fix": "next lint --fix",
+    "update": "npm update",
+    "cypress": "npx cypress run"
   },
   "dependencies": {
     "@floating-ui/react-dom": "^2.1.1",
@@ -21,9 +23,10 @@
     "axios": "^1.10.0",
     "classnames": "^2.5.1",
     "cookie": "^1.0.1",
+    "cypress": "^15.10.0",
     "gray-matter": "^4.0.3",
-    "next": "14.2.35",
-    "next-mdx-remote": "^5.0.0",
+    "next": "^16.1.6",
+    "next-mdx-remote": "^6.0.0",
     "postcss-preset-env": "^10.2.3",
     "prismjs": "^1.29.0",
     "react": "^18.3.1",
