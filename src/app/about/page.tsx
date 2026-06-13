@@ -17,6 +17,7 @@ import {person, about, social, review} from "@/app/resources/lang/default/conten
 import SchedulingButton from "@/components/SchedulingButton";
 import AnimatedComponents from "@/components/animated-components/animated-componets";
 import {HeroAbout} from "@/components/HeroAbout";
+import React, {JSX} from "react";
 
 export async function generateMetadata() {
   const title = about.title;
