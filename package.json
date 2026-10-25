@@ -37,9 +37,9 @@
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
     "sass": "^1.101.0",
-    "sharp": "^0.35.2",
+    "sharp": "^0.35.5",
     "tailwindcss-animate": "^1.0.7",
-    "vite": "^8.0.16"
+    "vite": "^8.3.5"
   },
   "devDependencies": {
     "@csstools/postcss-global-data": "^4.0.0",
